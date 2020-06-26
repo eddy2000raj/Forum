@@ -5,6 +5,12 @@
 /tmp
 /out-tsc
 
+package-lock.*
+npm-debug.log
+yarn-error.log
+testem.log
+debug.log
+
 # dependencies
 /node_modules
 
@@ -33,11 +39,12 @@ speed-measure-plugin.json
 /connect.lock
 /coverage
 /libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
+
+
 /typings
 
 # System Files
 .DS_Store
 Thumbs.db
+
+
